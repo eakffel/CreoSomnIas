@@ -20,6 +20,6 @@ jobs:
           # json key of google credentials that can modify storage bucket
           secrets: ${{secrets.gcpsecretnotencoded}}
           # Which bucket, either 'dev' or 'prod'
-          bucket_suffix: "as"
+          bucket_suffix: "prod"
           # Pattern to select bucket with
-          bucket_pattern: "creosmni"
+          bucket_pattern: "creo"
