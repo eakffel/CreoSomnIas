@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: 'main'
       - name: "deploy"
         # You may pin to the exact commit or the version.
         # uses: aroelo/sync_to_gcs@8779f6894d1146f129ea33b5e89bafc2684f62aa
